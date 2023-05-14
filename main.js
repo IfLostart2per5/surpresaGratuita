@@ -19,7 +19,7 @@ botao.addEventListener("click", function(){
 	print("Click N " + cliques);
 	if (cliques >= 5) {
 		alerta.innerHTML = "Parabéns! clique no link abaixo para ganhar seu prêmio!"
-		troll.setAttribute("href", "https://youtu.be/tgIRmwMvlf4")
+		troll.setAttribute("href", "https://youtu.be/NoOelyM6Y1w")
 		troll.firstChild.innerHTML = "presente grátis";
 		som.play();
 		slot1.setAttribute("src", "apontando1.jpg");
