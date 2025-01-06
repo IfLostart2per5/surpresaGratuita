@@ -18,12 +18,12 @@ botao.addEventListener("click", function(){
 	cliques += 1;
 	print("Click N " + cliques);
 	if (cliques >= 5) {
-		alerta.innerHTML = "Parabéns! clique no link abaixo para ganhar seu prêmio!"
+		alerta.innerHTML = "Parabéns! clique no link abaixo para ganhar seu prêmio e deitar com esta bela dama abaixo!"
 		troll.setAttribute("href", "https://youtu.be/NoOelyM6Y1w")
 		troll.firstChild.innerHTML = "presente grátis";
 		som.play();
 		slot1.setAttribute("src", "apontando1.jpg");
-		slot2.setAttribute("src", "apontando2.jpg");
+		slot2.setAttribute("src", "hq720");
 	} else {
 		setTimeout(() => {
 			alerta.innerHTML = ""
