@@ -23,7 +23,7 @@ botao.addEventListener("click", function(){
 		troll.firstChild.innerHTML = "presente grátis";
 		som.play();
 		slot1.setAttribute("src", "apontando1.jpg");
-		slot2.setAttribute("src", "hq720");
+		slot2.setAttribute("src", "hq720.jpg");
 	} else {
 		setTimeout(() => {
 			alerta.innerHTML = ""
